@@ -51,13 +51,13 @@ End If
 '     if worksheet is protected
 With ws
   '.Unprotect Password:="password"
-  .Cells(iRow, 1).Value = Me.TextBoxTOOLTYPE.Value
-  .Cells(iRow, 2).Value = Me.TextBoxSWVERSION.Value
-  .Cells(iRow, 3).Value = Me.TextBoxDESCRIPTION.Value
-  .Cells(iRow, 4).Value = Me.TextBoxPARTNUMBER.Value
-  .Cells(iRow, 5).Value = Me.TextBoxTAPECD.Value
-  .Cells(iRow, 6).Value = Me.TextBoxRELEASEIMAGE.Value
-  .Cells(iRow, 7).Value = Me.SOFTWARELOCATION.Value
+  .Cells(iRow, 1).Value = UCase(Me.TextBoxTOOLTYPE.Value)
+  .Cells(iRow, 2).Value = UCase(Me.TextBoxSWVERSION.Value)
+  .Cells(iRow, 3).Value = UCase(Me.TextBoxDESCRIPTION.Value)
+  .Cells(iRow, 4).Value = UCase(Me.TextBoxPARTNUMBER.Value)
+  .Cells(iRow, 5).Value = UCase(Me.TextBoxTAPECD.Value)
+  .Cells(iRow, 6).Value = UCase(Me.TextBoxRELEASEIMAGE.Value)
+  .Cells(iRow, 7).Value = UCase(Me.SOFTWARELOCATION.Value)
   '.Protect Password:="password"
 End With
 

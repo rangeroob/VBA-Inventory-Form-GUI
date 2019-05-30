@@ -12,3 +12,6 @@ If you are more security minded you can look over the vb source that I extracted
 
 ## Example of software 
 ![Picture of VBA-Inventory-Form-GUI](https://github.com/rangeroob/VBA-Inventory-Form-GUI/blob/master/INVENTORY_GUI.png "Picture of Software")
+
+## License
+The software is covered under the [The Unlicense](LICENSE) license.
